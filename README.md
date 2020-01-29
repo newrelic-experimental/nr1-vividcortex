@@ -15,8 +15,8 @@ This project is distributed under the [Apache 2 license](LICENSE).
 
 ## What do you need to make this work?
 
-> Give a complete list of prerequisites for using your app, and include links to other New Relic features when necessary. 
-> 
+> Give a complete list of prerequisites for using your app, and include links to other New Relic features when necessary.
+>
 > For example:
 
 Required:
@@ -50,7 +50,7 @@ Visit [https://one.newrelic.com/?nerdpacks=local](https://one.newrelic.com/?nerd
 
 ## Deploying this Nerdpack
 
-> Include the necessary steps to deploy your app. Generally, you shouldn't need to change any of these steps. 
+> Include the necessary steps to deploy your app. Generally, you shouldn't need to change any of these steps.
 
 Open a command prompt in the nerdpack's directory and run the following commands.
 
@@ -64,6 +64,12 @@ nr1 nerdpack:subscribe [-c [DEV|BETA|STABLE]] [--profile=your_profile_name]
 ```
 
 Visit [https://one.newrelic.com](https://one.newrelic.com), navigate to the Nerdpack, and :sparkles:
+
+## What do you need to make this work?
+
+### Storing your VividCortex API key
+
+Your VividCortex API key is stored with New Relic One’s `UserStorage` APIs. `UserStorage` data is accessible only to the user account and Nerdpack which created it. The data is encrypted in transmission, but is not encrypted at rest (within the underlying database). Because of this, `UserStorage` data may be accessible to a New Relic employee via an administrative privilege in the platform.
 
 ## Support
 
