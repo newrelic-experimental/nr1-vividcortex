@@ -9,9 +9,6 @@
     "eslint-check": "eslint nerdlets/ components/ lib/",
     "eslint-fix": "eslint nerdlets/ components/ lib/ --fix"
   },
-  "nr1": {
-    "uuid": "4edd6b0a-3fce-4999-8f83-21f995a1d1c9"
-  },
   "dependencies": {
     "lodash": "^4.17.15",
     "moment": "^2.24.0",
